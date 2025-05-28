@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Colors
+Background	   Vanilla Cream	#FFF9EC
+Primary	       Bubblegum Blue	#4FBCFF
+Secondary	   Froggy Green	#59E391
+Accent 1	   Friendly Coral	#FF8A80
+Accent 2	   Lemon Pop	#FFD93D
+Text (Dark)	   Charcoal Ink	#2E2E2E
+*/
+
+h1,
+h2,
+h3,
+p,
+button {
+  color: #2e2e2e;
+}
+
+h1 {
+  font-family: "playfair-display", serif;
+  font-weight: 900;
+  font-size: 200px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "bebas-neue", sans-serif;
+}
+
+p {
+  font-family: "roboto", sans-serif;
+}
