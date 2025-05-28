@@ -53,3 +53,20 @@ p {
   text-align: right;
   margin-right: 180px;
 }
+
+.section-sobremi {
+  height: 400px;
+  background-color: #59e391;
+  padding: 100px;
+}
+
+.section-sobremi p {
+  padding: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.bold {
+  font-weight: bold;
+}
