@@ -55,9 +55,9 @@ p {
 }
 
 .section-sobremi {
-  height: 400px;
+  height: 350px;
   background-color: #59e391;
-  padding: 100px;
+  padding: 70px;
 }
 
 .section-sobremi p {
@@ -69,4 +69,43 @@ p {
 
 .bold {
   font-weight: bold;
+}
+
+.section-projects {
+  background-color: #ff8a80;
+  padding: 70px;
+}
+
+.section-projects h2 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.proyects-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.proyects-cards-item {
+  padding: 20px;
+  background-color: white;
+  filter: drop-shadow(2px 6px 4px #adadad);
+  text-align: center;
+  justify-content: center;
+  border-radius: 50px 50px 50px 50px;
+  margin-bottom: 20px;
+}
+
+.proyects-cards-item h3 {
+  margin-bottom: 20px;
+}
+
+iframe {
+  height: 150 px;
+  width: 250px;
+  border-radius: 10px;
+  align-items: center;
 }
