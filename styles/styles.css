@@ -20,12 +20,6 @@ button {
   color: #2e2e2e;
 }
 
-h1 {
-  font-family: "playfair-display", serif;
-  font-weight: 900;
-  font-size: 200px;
-}
-
 h2,
 h3,
 h4 {
@@ -34,4 +28,28 @@ h4 {
 
 p {
   font-family: "roboto", sans-serif;
+}
+
+.section-inicio {
+  background-color: #59e391;
+  background-image: url("../assets/header.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.section-inicio h1 {
+  font-family: "playfair-display", serif;
+  font-weight: 900;
+  font-size: 200px;
+  color: white;
+}
+.section-inicio h2 {
+  font-family: "playfair-display", serif;
+  font-weight: 900;
+  font-size: 25px;
+  color: rgb(234, 232, 232);
+  text-align: right;
+  margin-right: 180px;
 }
