@@ -56,7 +56,7 @@ ul {
 }
 
 .section-sobremi {
-  height: 350px;
+  height: 500px;
   background-color: #59e391;
   padding: 70px;
 }
@@ -73,8 +73,10 @@ ul {
 }
 
 .section-projects {
+  height: 600px;
   background-color: #ff8a80;
   padding: 70px;
+  align-content: center;
 }
 
 .section-projects h2 {
@@ -115,8 +117,10 @@ iframe {
 
 .section-habilidades {
   background-color: #4fbcff;
+  height: 400px;
   padding: 70px;
   text-align: center;
+  align-content: center;
 }
 
 .section-habilidades h2 {
@@ -133,14 +137,18 @@ iframe {
 }
 
 .section-contacto {
+  height: 400px;
   background-color: #ffd93d;
   padding: 70px;
   padding: 20px;
   justify-content: center;
   text-align: center;
+  align-content: center;
 }
 
 .section-contacto button {
   margin-bottom: 20px;
   cursor: pointer;
 }
+
+@media (max-width: 576px);
