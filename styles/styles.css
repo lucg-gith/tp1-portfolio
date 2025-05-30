@@ -131,3 +131,9 @@ iframe {
   gap: 20px;
   list-style: none;
 }
+
+.section-contacto {
+  background-color: #ffd93d;
+  padding: 70px;
+  text-align: center;
+}
