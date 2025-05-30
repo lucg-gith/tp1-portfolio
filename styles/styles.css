@@ -135,5 +135,12 @@ iframe {
 .section-contacto {
   background-color: #ffd93d;
   padding: 70px;
+  padding: 20px;
+  justify-content: center;
   text-align: center;
+}
+
+.section-contacto button {
+  margin-bottom: 20px;
+  cursor: pointer;
 }
